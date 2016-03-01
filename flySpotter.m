@@ -82,22 +82,50 @@ for i = 1:length(allfiles)
 		all_areas(1:length(all_y),i) = all_area;
 		all_orientations(1:length(all_y),i) = all_orientation;
 
-	catch
-		disp('Something went wrong with this file...')
+	catch me
+		disp('Something went wrong with this file. The error is:')
+		disp(me.message)
 	end
 end
 
+
 % write sheet 1 -- positions on Y axis
-xlwrite([p oss 'results.xlsx'],all_names,1)
-xlwrite([p oss 'results.xlsx'],all_positions,1,'A2:DD100');
+temp = all_positions(:,1:length(all_names));
+z = find(sum((~isnan(temp)),2) == 0,1,'first');
+temp = temp(1:z-1,:);
+write_me = [all_names; num2cell(temp)];
+for i = 1:length(write_me)
+	for j = 1:width(write_me)
+		write_me{i,j} = mat2str(write_me{i,j});
+	end
+end
+xlwrite([p oss 'results.xls'],write_me,'Positions');
+
 
 % write sheet 2 -- areas
-xlwrite([p oss 'results.xlsx'],all_names,2)
-xlwrite([p oss 'results.xlsx'],all_areas,2,'A2:DD100');
+temp = all_areas(:,1:length(all_names));
+z = find(sum((~isnan(temp)),2) == 0,1,'first');
+temp = temp(1:z-1,:);
+write_me = [all_names; num2cell(temp)];
+for i = 1:length(write_me)
+	for j = 1:width(write_me)
+		write_me{i,j} = mat2str(write_me{i,j});
+	end
+end
+xlwrite([p oss 'results.xls'],write_me,'Areas');
+
 
 % write sheet 2 -- orientations
-xlwrite([p oss 'results.xlsx'],all_names,3)
-xlwrite([p oss 'results.xlsx'],all_orientations,3,'A2:DD100');
+temp = all_orientations(:,1:length(all_names));
+z = find(sum((~isnan(temp)),2) == 0,1,'first');
+temp = temp(1:z-1,:);
+write_me = [all_names; num2cell(temp)];
+for i = 1:length(write_me)
+	for j = 1:width(write_me)
+		write_me{i,j} = mat2str(write_me{i,j});
+	end
+end
+xlwrite([p oss 'results.xls'],write_me,'Orientations');
 
 
 
