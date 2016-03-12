@@ -9,23 +9,26 @@
 function  [] = flySpotter(varargin)
 
 % defaults
-show_figure = true;
+options.show_figure = false;
 
-if ~nargin
-
-else
-    if iseven(length(varargin))
-    	for ii = 1:2:length(varargin)-1
-        	temp = varargin{ii};
-        	if ischar(temp)
-            	eval(strcat(temp,'=varargin{ii+1};'));
-        	end
+% validate and accept options
+if iseven(length(varargin))
+	for ii = 1:2:length(varargin)-1
+	temp = varargin{ii};
+    if ischar(temp)
+    	if ~any(find(strcmp(temp,fieldnames(options))))
+    		disp(['Unknown option: ' temp])
+    		disp('The allowed options are:')
+    		disp(fieldnames(options))
+    		error('UNKNOWN OPTION')
+    	else
+    		options = setfield(options,temp,varargin{ii+1});
     	end
-	else
-    	error('Inputs need to be name value pairs')
-	end
+    end
 end
-
+else
+	error('Inputs need to be name value pairs')
+end
 
 
 p = uigetdir(pwd,'Choose filter with JPG images');
@@ -37,11 +40,12 @@ end
 % find all *JPG images
 allfiles = dir([p oss '*.JPG']);
 
-assert(length(allfiles)>0,'No JPG images found!s')
+assert(~isempty(allfiles),'No JPG images found!')
 
-all_positions = NaN(100,100);
-all_areas = NaN(100,100);
-all_orientations = NaN(100,100);
+% make placeholders for positions, areas and orienatons. first dimensions is a dummy (for number of flies in each file, and second dimension is as long as there are files.)
+all_positions = NaN(100,length(allfiles));
+all_areas = NaN(100,length(allfiles));
+all_orientations = NaN(100,length(allfiles));
 all_names = {};
 
 for i = 1:length(allfiles)
@@ -55,20 +59,20 @@ for i = 1:length(allfiles)
 		all_area = [];
 		all_orientation = [];
 
-		if show_figure
+		if options.show_figure
 			% save another image
 			figure, hold on
 			imagesc(rgb), axis image, axis ij
 		end
 		for j = 1:length(r)
-			if show_figure
+			if options.show_figure
 				plot(r(j).Centroid(1),r(j).Centroid(2),'ro','MarkerSize',10)
 			end
 			all_y = [all_y r(j).Centroid(2)];
 			all_area = [all_area r(j).Area];
 			all_orientation = [all_orientation r(j).Orientation];
 		end
-		if show_figure
+		if options.show_figure
 			saveas(gcf,[p oss allfiles(i).name '_results.png'])
 			close all
 		end
@@ -94,8 +98,8 @@ temp = all_positions(:,1:length(all_names));
 z = find(sum((~isnan(temp)),2) == 0,1,'first');
 temp = temp(1:z-1,:);
 write_me = [all_names; num2cell(temp)];
-for i = 1:length(write_me)
-	for j = 1:width(write_me)
+for i = 1:size(write_me,1)
+	for j = 1:size(write_me,2)
 		write_me{i,j} = mat2str(write_me{i,j});
 	end
 end
@@ -107,8 +111,8 @@ temp = all_areas(:,1:length(all_names));
 z = find(sum((~isnan(temp)),2) == 0,1,'first');
 temp = temp(1:z-1,:);
 write_me = [all_names; num2cell(temp)];
-for i = 1:length(write_me)
-	for j = 1:width(write_me)
+for i = 1:size(write_me,1)
+	for j = 1:size(write_me,2)
 		write_me{i,j} = mat2str(write_me{i,j});
 	end
 end
@@ -120,8 +124,8 @@ temp = all_orientations(:,1:length(all_names));
 z = find(sum((~isnan(temp)),2) == 0,1,'first');
 temp = temp(1:z-1,:);
 write_me = [all_names; num2cell(temp)];
-for i = 1:length(write_me)
-	for j = 1:width(write_me)
+for i = 1:size(write_me,1)
+	for j = 1:size(write_me,2)
 		write_me{i,j} = mat2str(write_me{i,j});
 	end
 end
