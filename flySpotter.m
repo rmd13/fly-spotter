@@ -116,7 +116,11 @@ for i = 1:size(write_me,1)
 		write_me{i,j} = mat2str(write_me{i,j});
 	end
 end
-xlwrite([p oss 'results.xls'],write_me,'Areas');
+if ispc
+	xlswrite([p oss 'results.xls'],write_me,'Areas');
+else	
+	xlwrite([p oss 'results.xls'],write_me,'Areas');
+end
 
 
 % write sheet 2 -- orientations
