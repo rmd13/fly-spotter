@@ -103,7 +103,11 @@ for i = 1:size(write_me,1)
 		write_me{i,j} = mat2str(write_me{i,j});
 	end
 end
-xlwrite([p oss 'results.xls'],write_me,'Positions');
+if ispc
+	xlswrite([p oss 'results.xls'],write_me,'Positions');
+else
+	xlwrite([p oss 'results.xls'],write_me,'Positions');
+end
 
 
 % write sheet 2 -- areas
@@ -133,8 +137,11 @@ for i = 1:size(write_me,1)
 		write_me{i,j} = mat2str(write_me{i,j});
 	end
 end
-xlwrite([p oss 'results.xls'],write_me,'Orientations');
-
+if ispc
+	xlswrite([p oss 'results.xls'],write_me,'Orientations');
+else
+	xlwrite([p oss 'results.xls'],write_me,'Orientations');
+end
 
 
 
