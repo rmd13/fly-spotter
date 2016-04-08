@@ -5,7 +5,35 @@
 % This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. 
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
-function [r,rgb] = fs4(rgb)
+function [r,rgb] = fs4(rgb,varargin)
+
+% get options from dependencies 
+options = getOptionsFromDeps(mfilename);
+
+% options and defaults
+options.min_size = 20;
+
+% validate and accept options
+if iseven(length(varargin))
+	for ii = 1:2:length(varargin)-1
+	temp = varargin{ii};
+    if ischar(temp)
+    	if ~any(find(strcmp(temp,fieldnames(options))))
+    		disp(['Unknown option: ' temp])
+    		disp('The allowed options are:')
+    		disp(fieldnames(options))
+    		error('UNKNOWN OPTION')
+    	else
+    		options = setfield(options,temp,varargin{ii+1});
+    	end
+    end
+end
+elseif isstruct(varargin{1})
+	% should be OK...
+	options = varargin{1};
+else
+	error('Inputs need to be name value pairs')
+end
 
 % disp('Using blue channel...')
 I = 255 - rgb(:,:,3);
@@ -41,11 +69,11 @@ r = r0;
 disp([mat2str(length(r)) ' objects found.'])
 
 % disp('Ignoring very small objects...')
-r([r.Area]<10) = [];
-r0([r0.Area]<10) = [];
+r([r.Area]<options.min_size) = [];
+r0([r0.Area]<options.min_size) = [];
 
 if length(r) > 10
-	% disp('Resolving very large objects...')
+	disp('Resolving very large objects...')
 	resolve_these = find([r.Area]>1.5*mean([r.Area]));
 	for i = 1:length(resolve_these)
 		resolve_this = resolve_these(i);
@@ -53,14 +81,14 @@ if length(r) > 10
 		ff = L;
 		ff(ff~=resolve_this) = 0;
 		ff(ff~=0) = 1;
-		ff = cutImage(ff',r0(resolve_this).Centroid,50);
+		ff = cutImage(ff',r0(resolve_this).Centroid,50)';
 
 		% keep opening the image till iwe split the object
 		for s = 1:20
 			ff_open = imopen(ff,strel('disk',s,0));
-			rr =  (regionprops(logical(ff_open),'Centroid','Area','MaxIntensity','Orientation'));
+			rr =  (regionprops(logical(ff_open),logical(ff_open),'Centroid','Area','MaxIntensity','Orientation'));
 			if length(rr) > 1
-
+				disp('Succesfully resolved overlapping flies...')
 				break
 			end
 		end
@@ -78,4 +106,3 @@ if length(r) > 10
 	end
 end
 
-% markObjects(rgb,r)

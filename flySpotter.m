@@ -6,10 +6,18 @@
 % This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. 
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
-function  [] = flySpotter(varargin)
+function  [varargout] = flySpotter(varargin)
+
+% get options from dependencies 
+options = getOptionsFromDeps(mfilename);
 
 % defaults
 options.show_figure = false;
+
+if nargout && ~nargin 
+	varargout{1} = options;
+    return
+end
 
 % validate and accept options
 if iseven(length(varargin))
@@ -26,10 +34,12 @@ if iseven(length(varargin))
     	end
     end
 end
+elseif isstruct(varargin{1})
+	% should be OK...
+	options = varargin{1};
 else
 	error('Inputs need to be name value pairs')
 end
-
 
 p = uigetdir(pwd,'Choose filter with JPG images');
 if ~p
