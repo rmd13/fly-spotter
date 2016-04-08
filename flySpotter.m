@@ -51,7 +51,7 @@ all_names = {};
 for i = 1:length(allfiles)
 	disp(allfiles(i).name)
 	rgb = imread([p oss allfiles(i).name]);
-
+	all_names = [all_names allfiles(i).name];
 	try
 		[r,rgb] = fs4(rgb);
 
@@ -76,7 +76,6 @@ for i = 1:length(allfiles)
 			saveas(gcf,[p oss allfiles(i).name '_results.png'])
 			close all
 		end
-		all_names = [all_names allfiles(i).name];
 
 		% find distances from bottom
 		all_y = size(rgb,1) - round(all_y);
@@ -89,6 +88,7 @@ for i = 1:length(allfiles)
 	catch me
 		disp('Something went wrong with this file. The error is:')
 		disp(me.message)
+
 	end
 end
 
@@ -106,7 +106,7 @@ end
 if ispc
 	xlswrite([p oss 'results.xls'],write_me,'Positions');
 else
-	xlwrite([p oss 'results.xls'],write_me,'Positions');
+	cell2csv([p oss 'results_positions.csv'],write_me);
 end
 
 
@@ -123,7 +123,7 @@ end
 if ispc
 	xlswrite([p oss 'results.xls'],write_me,'Areas');
 else	
-	xlwrite([p oss 'results.xls'],write_me,'Areas');
+	cell2csv([p oss 'results_areas.csv'],write_me);
 end
 
 
@@ -140,7 +140,7 @@ end
 if ispc
 	xlswrite([p oss 'results.xls'],write_me,'Orientations');
 else
-	xlwrite([p oss 'results.xls'],write_me,'Orientations');
+	cell2csv([p oss 'results_orientations.csv'],write_me);
 end
 
 
