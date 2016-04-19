@@ -61,7 +61,7 @@ Ibw = imclose(Ibw,strel('disk',5));
 L = bwlabel(Ibw);
 
 % disp('Detecting objects...')
-r0 = regionprops(L,I,'Area','Centroid','MaxIntensity','Orientation');
+r0 = regionprops(L,I,'Area','Centroid','MaxIntensity','Orientation','Perimeter');
 if length(r0) > 100 % a sign of something going wrong
 	r0([r0.MaxIntensity] < max(max(I))/2) = [];
 end
@@ -69,39 +69,67 @@ r = r0;
 disp([mat2str(length(r)) ' objects found.'])
 
 % disp('Ignoring very small objects...')
-r([r.Area]<options.min_size) = [];
-r0([r0.Area]<options.min_size) = [];
+small_objects = find([r.Area]<options.min_size);
+r(small_objects) = [];
+r0(small_objects) = [];
+for i = 1:length(small_objects)
+	L(L==small_objects(i)) = 0;
+end
 
-if length(r) > 10
-	disp('Resolving very large objects...')
-	resolve_these = find([r.Area]>1.5*mean([r.Area]));
+if length(r) > 2
+	% build areas using the labelled image instead of the regionprops object
+	resolve_these = find([r.Perimeter]>1.5*mean([r.Perimeter]));
+
+	if length(resolve_these)
+		disp('Resolving very large objects...')
+	end
 	for i = 1:length(resolve_these)
 		resolve_this = resolve_these(i);
 		% blank out everything else
 		ff = L;
-		ff(ff~=resolve_this) = 0;
-		ff(ff~=0) = 1;
 		ff = cutImage(ff',r0(resolve_this).Centroid,50)';
+		dominant_label = mode(nonzeros(ff(:)));
+		ff(ff~=dominant_label) = 0;
+		% ff(ff~=L(round(r(resolve_this).Centroid(2)),round(r(resolve_this).Centroid(1)))) = 0;
+		ff(ff~=0) = 1;
+		
 
-		% keep opening the image till iwe split the object
+		% keep opening the image till we split the object
+		ok = false;
 		for s = 1:20
 			ff_open = imopen(ff,strel('disk',s,0));
-			rr =  (regionprops(logical(ff_open),logical(ff_open),'Centroid','Area','MaxIntensity','Orientation'));
+			rr =  (regionprops(logical(ff_open),logical(ff_open),'Centroid','Area','MaxIntensity','Orientation','Perimeter'));
 			if length(rr) > 1
 				disp('Succesfully resolved overlapping flies...')
+				ok = true;
 				break
 			end
 		end
 
+		if ~ok
+			disp('Automatic object deconvolution failed. Using k-means...')			
+			% use k-means to split them
+			temp = regionprops(ff,'PixelList');
+			[idx,C] = kmeans(temp.PixelList,2);
+			rr = r(resolve_this);
+			rr(1).Centroid(1) =  C(1,1);
+			rr(1).Centroid(2) =  C(1,2);
+			rr(1).Area = sum(idx==1);
+
+			rr(2).Centroid(1) =  C(2,1);
+			rr(2).Centroid(2) =  C(2,2);
+			rr(2).Area = sum(idx==2);
+		end
+
 		if length(rr) == 0
-			% plot(r(i).Centroid(1),r(i).Centroid(2),'r+','MarkerSize',12)
+
 		else
 			for j = 1:length(rr)
 				rr(j).Centroid(1) = rr(j).Centroid(1) + r(resolve_this).Centroid(1) - 50 ;
 				rr(j).Centroid(2) = rr(j).Centroid(2) + r(resolve_this).Centroid(2) - 50;
 			end
 			r(resolve_this) = [];
-			r = [r; rr];
+			r = [r; rr(:)];
 		end
 	end
 end

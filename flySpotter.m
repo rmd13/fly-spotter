@@ -71,7 +71,8 @@ for i = 1:length(allfiles)
 
 		if options.show_figure
 			% save another image
-			figure, hold on
+			fig_name = allfiles(i).name;
+			figure('Name',fig_name,'NumberTitle','off'), hold on
 			imagesc(rgb), axis image, axis ij
 		end
 		for j = 1:length(r)
@@ -98,6 +99,10 @@ for i = 1:length(allfiles)
 	catch me
 		disp('Something went wrong with this file. The error is:')
 		disp(me.message)
+		disp('Here is the full stack trace:')
+		for i = 1:length(me.stack)
+			disp(me.stack(i))
+		end
 
 	end
 end
