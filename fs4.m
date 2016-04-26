@@ -119,6 +119,11 @@ if length(r) > 2
 			rr(2).Centroid(1) =  C(2,1);
 			rr(2).Centroid(2) =  C(2,2);
 			rr(2).Area = sum(idx==2);
+
+			% also inherit the orientations 
+			rr(1).Orientation = r0(resolve_this).Orientation;
+			rr(2).Orientation = r0(resolve_this).Orientation;
+
 		end
 
 		if length(rr) == 0
