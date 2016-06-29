@@ -41,7 +41,7 @@ else
 	error('Inputs need to be name value pairs')
 end
 
-p = uigetdir(pwd,'Choose filter with JPG images');
+p = uigetdir(pwd,'Choose folder with JPG images');
 if ~p
 	disp('No folder chosen, quitting')
 	return
@@ -62,6 +62,10 @@ for i = 1:length(allfiles)
 	disp(allfiles(i).name)
 	rgb = imread([p oss allfiles(i).name]);
 	all_names = [all_names allfiles(i).name];
+	if length(fopen('all')) > 100
+		disp('Flushing all open files...')
+		fclose('all');
+	end
 	try
 		[r,rgb] = fs4(rgb);
 
