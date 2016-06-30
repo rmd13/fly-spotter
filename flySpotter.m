@@ -122,11 +122,11 @@ for i = 1:size(write_me,1)
 		write_me{i,j} = mat2str(write_me{i,j});
 	end
 end
-if ispc
-	xlswrite([p oss 'results.xls'],write_me,'Positions');
-else
-	cell2csv([p oss 'results_positions.csv'],write_me);
-end
+% if ispc
+% 	xlswrite([p oss 'results.xls'],write_me,'Positions');
+% else
+cell2csv([p oss 'results_positions.csv'],write_me);
+% end
 
 
 % write sheet 2 -- areas
@@ -139,11 +139,11 @@ for i = 1:size(write_me,1)
 		write_me{i,j} = mat2str(write_me{i,j});
 	end
 end
-if ispc
-	xlswrite([p oss 'results.xls'],write_me,'Areas');
-else	
-	cell2csv([p oss 'results_areas.csv'],write_me);
-end
+% if ispc
+% 	xlswrite([p oss 'results.xls'],write_me,'Areas');
+% else	
+cell2csv([p oss 'results_areas.csv'],write_me);
+%end
 
 
 % write sheet 2 -- orientations
@@ -156,11 +156,11 @@ for i = 1:size(write_me,1)
 		write_me{i,j} = mat2str(write_me{i,j});
 	end
 end
-if ispc
-	xlswrite([p oss 'results.xls'],write_me,'Orientations');
-else
-	cell2csv([p oss 'results_orientations.csv'],write_me);
-end
+% if ispc
+% 	xlswrite([p oss 'results.xls'],write_me,'Orientations');
+% else
+cell2csv([p oss 'results_orientations.csv'],write_me);
+%end
 
 
 
