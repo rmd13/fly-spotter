@@ -13,8 +13,9 @@ function [] = batchSpot(varargin)
 options = getOptionsFromDeps(mfilename);
 
 % defaults
-options.show_figure = false;
 options.min_size = 10;
+options.x_scale = 1;
+options.y_scale = 1;
 options.threshold = 100;
 
 if nargout && ~nargin 
@@ -81,6 +82,8 @@ disp(['Finished analyzing ' oval(size(images,3)) 'images in ' oval(t) 'sec'])
 v = verifyFlyPositions;
 v.original_file_names = {allfiles.name};
 v.parent_dir = p;
+v.x_scale = 1;
+v.y_scale  = 1;
 v.nframes = length(all_objects);
 v.all_objects = all_objects;
 v.full_images = full_images;

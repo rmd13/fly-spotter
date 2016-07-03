@@ -8,6 +8,8 @@ classdef verifyFlyPositions < movieAnalyser
 		all_objects
 		full_images
 		parent_dir
+		x_scale
+		y_scale
 		original_file_names
 	end % end properties
 
@@ -137,7 +139,7 @@ classdef verifyFlyPositions < movieAnalyser
 			for i = 1:length(v.all_objects)
 				temp(1,i) = v.original_file_names(i);
 				for j = 1:length(v.all_objects(i).r)
-					temp{j+1,i} = v.all_objects(i).r(j).Centroid(1);
+					temp{j+1,i} = v.x_scale*v.all_objects(i).r(j).Centroid(1);
 				end
 			end
 			cell2csv([v.parent_dir oss 'results_X.csv'],temp);
@@ -147,7 +149,7 @@ classdef verifyFlyPositions < movieAnalyser
 			for i = 1:length(v.all_objects)
 				temp(1,i) = v.original_file_names(i);
 				for j = 1:length(v.all_objects(i).r)
-					temp{j+1,i} = v.all_objects(i).r(j).Centroid(2);
+					temp{j+1,i} = v.y_scale*v.all_objects(i).r(j).Centroid(2);
 				end
 			end
 			cell2csv([v.parent_dir oss 'results_Y.csv'],temp);
