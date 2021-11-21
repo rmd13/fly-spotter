@@ -48,7 +48,7 @@ if ~p
 end
 
 % find all *JPG images
-allfiles = dir([p oss '*.JPG']);
+allfiles = dir([p filesep '*.JPG']);
 
 assert(~isempty(allfiles),'No JPG images found!')
 
@@ -60,7 +60,7 @@ all_names = {};
 
 for i = 1:length(allfiles)
 	disp(allfiles(i).name)
-	rgb = imread([p oss allfiles(i).name]);
+	rgb = imread([p filesep allfiles(i).name]);
 	all_names = [all_names allfiles(i).name];
 	if length(fopen('all')) > 100
 		disp('Flushing all open files...')
@@ -88,7 +88,7 @@ for i = 1:length(allfiles)
 			all_orientation = [all_orientation r(j).Orientation];
 		end
 		if options.show_figure
-			saveas(gcf,[p oss allfiles(i).name '_results.png'])
+			saveas(gcf,[p filesep allfiles(i).name '_results.png'])
 			close all
 		end
 
@@ -123,9 +123,9 @@ for i = 1:size(write_me,1)
 	end
 end
 % if ispc
-% 	xlswrite([p oss 'results.xls'],write_me,'Positions');
+% 	xlswrite([p filesep 'results.xls'],write_me,'Positions');
 % else
-cell2csv([p oss 'results_positions.csv'],write_me);
+cell2csv([p filesep 'results_positions.csv'],write_me);
 % end
 
 
@@ -140,9 +140,9 @@ for i = 1:size(write_me,1)
 	end
 end
 % if ispc
-% 	xlswrite([p oss 'results.xls'],write_me,'Areas');
+% 	xlswrite([p filesep 'results.xls'],write_me,'Areas');
 % else	
-cell2csv([p oss 'results_areas.csv'],write_me);
+cell2csv([p filesep 'results_areas.csv'],write_me);
 %end
 
 
@@ -157,9 +157,9 @@ for i = 1:size(write_me,1)
 	end
 end
 % if ispc
-% 	xlswrite([p oss 'results.xls'],write_me,'Orientations');
+% 	xlswrite([p filesep 'results.xls'],write_me,'Orientations');
 % else
-cell2csv([p oss 'results_orientations.csv'],write_me);
+cell2csv([p filesep 'results_orientations.csv'],write_me);
 %end
 
 

@@ -1,0 +1,2856 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Dec",
+				"Decentralized"
+			],
+			[
+				"rand",
+				"RandStream"
+			],
+			[
+				"vecto",
+				"vectorizedData"
+			],
+			[
+				"on",
+				"only_this"
+			],
+			[
+				"n",
+				"n_clusters"
+			],
+			[
+				"Vec",
+				"VectorizedData"
+			],
+			[
+				"neuron",
+				"neuron_patterns"
+			],
+			[
+				"red",
+				"reduced data"
+			],
+			[
+				"plotSt",
+				"plotStates"
+			],
+			[
+				"Mar",
+				"MarkerEdgeColor"
+			],
+			[
+				"Ma",
+				"MarkerSize"
+			],
+			[
+				"p_",
+				"p_below"
+			],
+			[
+				"p_a",
+				"p_above"
+			],
+			[
+				"Pl",
+				"PlotOrder"
+			],
+			[
+				"spar",
+				"sparse-irregular"
+			],
+			[
+				"LP-s",
+				"LP-silent-PD-bursting"
+			],
+			[
+				"irr",
+				"irregular-bursting"
+			],
+			[
+				"Mark",
+				"MarkerFaceColor"
+			],
+			[
+				"Is",
+				"IsSignificant"
+			],
+			[
+				"th",
+				"these_args"
+			],
+			[
+				"uni",
+				"unique_preps"
+			],
+			[
+				"mo",
+				"modulators"
+			],
+			[
+				"norm",
+				"normalized"
+			],
+			[
+				"m",
+				"modulators"
+			],
+			[
+				"Font",
+				"FontWeight"
+			],
+			[
+				"com",
+				"computeTransitionMatrixCore"
+			],
+			[
+				"J",
+				"J_shuffled"
+			],
+			[
+				"Line",
+				"LineWidth"
+			],
+			[
+				"ex",
+				"experiment_idx"
+			],
+			[
+				"font",
+				"FontSize"
+			],
+			[
+				"thins",
+				"things_to_measure"
+			],
+			[
+				"PD_du",
+				"PD_duty_cycle"
+			],
+			[
+				"only",
+				"only_when"
+			],
+			[
+				"CV_",
+				"CV_PD"
+			],
+			[
+				"ph",
+				"pH_data"
+			],
+			[
+				"pH",
+				"pH_preps"
+			],
+			[
+				"init",
+				"initializations"
+			],
+			[
+				"FontSiz",
+				"FontSize',28,'"
+			],
+			[
+				"Marker",
+				"MarkerEdgeColor\t⟠"
+			],
+			[
+				"Vertical",
+				"VerticalAlignment\t⟠"
+			],
+			[
+				"decentra",
+				"decentralized\t⟠"
+			],
+			[
+				"Hori",
+				"HorizontalAlignment\t⟠"
+			],
+			[
+				"modu",
+				"modulators\t⟠"
+			],
+			[
+				"after",
+				"after_first_app\t⟠"
+			],
+			[
+				"mod",
+				"modululator\t⟠"
+			],
+			[
+				"high_",
+				"high_pH\t⟠"
+			],
+			[
+				"Decentr",
+				"Decentralized\t⟠"
+			],
+			[
+				"decentr",
+				"decentralized\t⟠"
+			],
+			[
+				"exp",
+				"experiment_idx\t⟠"
+			],
+			[
+				"nerv",
+				"nerve_names\t⟠"
+			],
+			[
+				"within_",
+				"within_prep_CV"
+			],
+			[
+				"Connectivity",
+				"ConnectivityList"
+			],
+			[
+				"show_these",
+				"show_these_states"
+			],
+			[
+				"cla",
+				"cla\tMatlab method"
+			],
+			[
+				"down",
+				"download_this"
+			],
+			[
+				"get",
+				"get_these_months"
+			],
+			[
+				"tim",
+				"timeSinceDecentralization"
+			],
+			[
+				"LP",
+				"LP_color"
+			],
+			[
+				"var",
+				"var_vs_var"
+			],
+			[
+				"within",
+				"within_prep"
+			],
+			[
+				"bet",
+				"between-prep"
+			],
+			[
+				"wit",
+				"within_prep"
+			],
+			[
+				"all",
+				"all_cv"
+			],
+			[
+				"plot",
+				"plot_this"
+			],
+			[
+				"base",
+				"basedata"
+			],
+			[
+				"dec",
+				"decentralized_averaged_metrics"
+			],
+			[
+				"de",
+				"decentralization"
+			],
+			[
+				"time",
+				"time_vec"
+			],
+			[
+				"sw",
+				"switching_rate_N"
+			],
+			[
+				"switc",
+				"switching_rate"
+			],
+			[
+				"this",
+				"this_time"
+			],
+			[
+				"prep",
+				"prep_counts"
+			],
+			[
+				"state",
+				"state_probability"
+			],
+			[
+				"stat",
+				"state_probability"
+			],
+			[
+				"prob",
+				"probState"
+			],
+			[
+				"rm",
+				"rm_this"
+			],
+			[
+				"grou",
+				"groupNames"
+			],
+			[
+				"sort",
+				"sort_order"
+			],
+			[
+				"sor",
+				"sorted_cats"
+			],
+			[
+				"bur",
+				"burst_metrics"
+			],
+			[
+				"new",
+				"new_hashes"
+			],
+			[
+				"raw",
+				"raw_data_hashes"
+			],
+			[
+				"LP_p",
+				"LP_phase"
+			],
+			[
+				"phae",
+				"phases"
+			],
+			[
+				"LP_phase_",
+				"LP_phase_on"
+			],
+			[
+				"LP_phase",
+				"LP_phase_on_mean"
+			],
+			[
+				"normal",
+				"normaldata"
+			],
+			[
+				"SHo",
+				"Show1"
+			],
+			[
+				"LP_bur",
+				"LP_burst_starts"
+			],
+			[
+				"PD_b",
+				"PD_burst_starts"
+			],
+			[
+				"PD_burst_period",
+				"PD_burst_period_mean"
+			],
+			[
+				"show",
+				"show_these"
+			],
+			[
+				"sh",
+				"show_these"
+			],
+			[
+				"Dat",
+				"DataSize"
+			],
+			[
+				"prop",
+				"props"
+			],
+			[
+				"PD",
+				"PD_isi_min"
+			],
+			[
+				"N",
+				"NSpikeRatio"
+			],
+			[
+				"clo",
+				"closest_PD_spike"
+			],
+			[
+				"cl",
+				"closest_LP_spike"
+			],
+			[
+				"LP_burs",
+				"LP_burstiness"
+			],
+			[
+				"sorted",
+				"sorted_isis"
+			],
+			[
+				"long",
+				"longest_silence"
+			],
+			[
+				"PD_spi",
+				"PD_spike_phases"
+			],
+			[
+				"file",
+				"fieldnames"
+			],
+			[
+				"LP_isi",
+				"LP_isi_min"
+			],
+			[
+				"A_st",
+				"A_starts_strict"
+			],
+			[
+				"A",
+				"A_starts"
+			],
+			[
+				"PD_bur",
+				"PD_burst_starts"
+			],
+			[
+				"nex",
+				"next_B_spike"
+			],
+			[
+				"LP_ph",
+				"LP_phases"
+			],
+			[
+				"PD_bu",
+				"PD_burst_periods"
+			],
+			[
+				"sk",
+				"skipped_burst_LP"
+			],
+			[
+				"LP_bu",
+				"LP_burst_period_mean"
+			],
+			[
+				"A_bu",
+				"A_burst_starts"
+			],
+			[
+				"A_bur",
+				"A_burst_starts"
+			],
+			[
+				"PD_per",
+				"PD_period_ratio"
+			],
+			[
+				"PD_ra",
+				"PD_period_ratio"
+			],
+			[
+				"next_",
+				"next_A_spike"
+			],
+			[
+				"PD_is",
+				"PD_isi_ratios"
+			],
+			[
+				"PD_",
+				"PD_isi_min"
+			],
+			[
+				"PD_phas",
+				"PD_phase_mean"
+			],
+			[
+				"PD_ph",
+				"PD_phases"
+			],
+			[
+				"PD_phase",
+				"PD_phase_max"
+			],
+			[
+				"PD_ur",
+				"PD_burst_period_max"
+			],
+			[
+				"LP_phas",
+				"LP_phase_cv"
+			],
+			[
+				"LP_",
+				"LP_burst_period_cv"
+			],
+			[
+				"las",
+				"last_LP_spike"
+			],
+			[
+				"LP_LP",
+				"LP_LP_ratio"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/batchSpot.m",
+			"settings":
+			{
+				"buffer_size": 1326,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					12,
+					1,
+					"left_delete",
+					null,
+					"AQAAABsBAAAAAAAAGwEAAAAAAABLAAAACiUgZ2V0IG9wdGlvbnMgZnJvbSBkZXBlbmRlbmNpZXMgCm9wdGlvbnMgPSBnZXRPcHRpb25zRnJvbURlcHMobWZpbGVuYW1lKTsK",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABmAQAAAAAAABsBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					20,
+					1,
+					"insert",
+					{
+						"characters": "args"
+					},
+					"BQAAABABAAAAAAAAEQEAAAAAAAAAAAAAEQEAAAAAAAARAQAAAAAAAAgAAAB2YXJhcmdpbhEBAAAAAAAAEgEAAAAAAAAAAAAAEgEAAAAAAAATAQAAAAAAAAAAAAATAQAAAAAAABQBAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAQAQAAAAAAABgBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					22,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"BQAAABUBAAAAAAAAFgEAAAAAAAAAAAAAFgEAAAAAAAAXAQAAAAAAAAAAAAAXAQAAAAAAABgBAAAAAAAAAAAAABgBAAAAAAAAGQEAAAAAAAAAAAAAFgEAAAAAAAAWAQAAAAAAAAEAAAAJ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAVAQAAAAAAABUBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					23,
+					1,
+					"insert_completion",
+					{
+						"completion": "if",
+						"format": "snippet",
+						"keep_prefix": false,
+						"must_insert": true,
+						"trigger": "if"
+					},
+					"AQAAABgBAAAAAAAAGgEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAYAQAAAAAAABgBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					24,
+					1,
+					"left_delete",
+					null,
+					"AQAAABkBAAAAAAAAGQEAAAAAAAABAAAAZg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAaAQAAAAAAABoBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					25,
+					1,
+					"insert",
+					{
+						"characters": "a"
+					},
+					"AQAAABkBAAAAAAAAGgEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAZAQAAAAAAABkBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					26,
+					3,
+					"left_delete",
+					null,
+					"AwAAABkBAAAAAAAAGQEAAAAAAAABAAAAYRgBAAAAAAAAGAEAAAAAAAABAAAAaRcBAAAAAAAAFwEAAAAAAAABAAAACQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAaAQAAAAAAABoBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					27,
+					1,
+					"insert",
+					{
+						"characters": "aru"
+					},
+					"AwAAABcBAAAAAAAAGAEAAAAAAAAAAAAAGAEAAAAAAAAZAQAAAAAAAAAAAAAZAQAAAAAAABoBAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAXAQAAAAAAABcBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					28,
+					1,
+					"left_delete",
+					null,
+					"AQAAABkBAAAAAAAAGQEAAAAAAAABAAAAdQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAaAQAAAAAAABoBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					29,
+					1,
+					"insert",
+					{
+						"characters": "guments"
+					},
+					"BwAAABkBAAAAAAAAGgEAAAAAAAAAAAAAGgEAAAAAAAAbAQAAAAAAAAAAAAAbAQAAAAAAABwBAAAAAAAAAAAAABwBAAAAAAAAHQEAAAAAAAAAAAAAHQEAAAAAAAAeAQAAAAAAAAAAAAAeAQAAAAAAAB8BAAAAAAAAAAAAAB8BAAAAAAAAIAEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAZAQAAAAAAABkBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					32,
+					1,
+					"insert",
+					{
+						"characters": "\n\nend"
+					},
+					"BQAAACABAAAAAAAAIQEAAAAAAAAAAAAAIQEAAAAAAAAiAQAAAAAAAAAAAAAiAQAAAAAAACMBAAAAAAAAAAAAACMBAAAAAAAAJAEAAAAAAAAAAAAAJAEAAAAAAAAlAQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAgAQAAAAAAACABAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					35,
+					1,
+					"reindent",
+					null,
+					"AQAAACEBAAAAAAAAIgEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAhAQAAAAAAACEBAAAAAAAAAAAAAAAAP0A"
+				],
+				[
+					39,
+					1,
+					"cut",
+					null,
+					"AQAAADQBAAAAAAAANAEAAAAAAABZAAAAb3B0aW9ucy5taW5fc2l6ZSA9IDEwOwpvcHRpb25zLnhfc2NhbGUgPSAxOwpvcHRpb25zLnlfc2NhbGUgPSAxOwpvcHRpb25zLnRocmVzaG9sZCA9IDEwMDs",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACNAQAAAAAAADQBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					42,
+					1,
+					"paste",
+					null,
+					"AQAAACIBAAAAAAAAewEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAiAQAAAAAAACIBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					49,
+					1,
+					"indent",
+					null,
+					"AwAAADkBAAAAAAAAOgEAAAAAAAAAAAAATwEAAAAAAABQAQAAAAAAAAAAAABlAQAAAAAAAGYBAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB7AQAAAAAAADkBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					60,
+					1,
+					"insert",
+					{
+						"characters": "args"
+					},
+					"FAAAAGYBAAAAAAAAZwEAAAAAAAAAAAAAZwEAAAAAAABnAQAAAAAAAAcAAABvcHRpb25zUAEAAAAAAABRAQAAAAAAAAAAAABRAQAAAAAAAFEBAAAAAAAABwAAAG9wdGlvbnM6AQAAAAAAADsBAAAAAAAAAAAAADsBAAAAAAAAOwEAAAAAAAAHAAAAb3B0aW9ucyIBAAAAAAAAIwEAAAAAAAAAAAAAIwEAAAAAAAAjAQAAAAAAAAcAAABvcHRpb25zVQEAAAAAAABWAQAAAAAAAAAAAABFAQAAAAAAAEYBAAAAAAAAAAAAADUBAAAAAAAANgEAAAAAAAAAAAAAIwEAAAAAAAAkAQAAAAAAAAAAAABZAQAAAAAAAFoBAAAAAAAAAAAAAEgBAAAAAAAASQEAAAAAAAAAAAAANwEAAAAAAAA4AQAAAAAAAAAAAAAkAQAAAAAAACUBAAAAAAAAAAAAAF0BAAAAAAAAXgEAAAAAAAAAAAAASwEAAAAAAABMAQAAAAAAAAAAAAA5AQAAAAAAADoBAAAAAAAAAAAAACUBAAAAAAAAJgEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAQAAAAiAQAAAAAAACkBAAAAAAAAAAAAAAAA8L86AQAAAAAAAEEBAAAAAAAAAAAAAAAA8L9QAQAAAAAAAFcBAAAAAAAAAAAAAAAA8L9mAQAAAAAAAG0BAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					66,
+					1,
+					"left_delete",
+					null,
+					"AQAAAIUBAAAAAAAAhQEAAAAAAAA/AAAACmlmIG5hcmdvdXQgJiYgfm5hcmdpbiAKCXZhcmFyZ291dHsxfSA9IG9wdGlvbnM7CiAgICByZXR1cm4KZW5k",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADEAQAAAAAAAIUBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					70,
+					1,
+					"insert",
+					{
+						"characters": "="
+					},
+					"AgAAAHgBAAAAAAAAeQEAAAAAAAAAAAAAeQEAAAAAAAB5AQAAAAAAAA0AAAAKJSBkZWZhdWx0cwoK",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACFAQAAAAAAAHgBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					72,
+					1,
+					"left_delete",
+					null,
+					"AQAAAHgBAAAAAAAAeAEAAAAAAAABAAAAPQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB5AQAAAAAAAHkBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					78,
+					1,
+					"left_delete",
+					null,
+					"AQAAAHgBAAAAAAAAeAEAAAAAAAAaAgAACgolIHZhbGlkYXRlIGFuZCBhY2NlcHQgb3B0aW9ucwppZiBpc2V2ZW4obGVuZ3RoKHZhcmFyZ2luKSkKCWZvciBpaSA9IDE6MjpsZW5ndGgodmFyYXJnaW4pLTEKCXRlbXAgPSB2YXJhcmdpbntpaX07CiAgICBpZiBpc2NoYXIodGVtcCkKICAgIAlpZiB+YW55KGZpbmQoc3RyY21wKHRlbXAsZmllbGRuYW1lcyhvcHRpb25zKSkpKQogICAgCQlkaXNwKFsnVW5rbm93biBvcHRpb246ICcgdGVtcF0pCiAgICAJCWRpc3AoJ1RoZSBhbGxvd2VkIG9wdGlvbnMgYXJlOicpCiAgICAJCWRpc3AoZmllbGRuYW1lcyhvcHRpb25zKSkKICAgIAkJZXJyb3IoJ1VOS05PV04gT1BUSU9OJykKICAgIAllbHNlCiAgICAJCW9wdGlvbnMgPSBzZXRmaWVsZChvcHRpb25zLHRlbXAsdmFyYXJnaW57aWkrMX0pOwogICAgCWVuZAogICAgZW5kCmVuZAplbHNlaWYgaXNzdHJ1Y3QodmFyYXJnaW57MX0pCgklIHNob3VsZCBiZSBPSy4uLgoJb3B0aW9ucyA9IHZhcmFyZ2luezF9OwplbHNlCgllcnJvcignSW5wdXRzIG5lZWQgdG8gYmUgbmFtZSB2YWx1ZSBwYWlycycpCmVuZA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACSAwAAAAAAAHgBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					84,
+					5,
+					"left_delete",
+					null,
+					"BQAAAAUBAAAAAAAABQEAAAAAAAABAAAAIAQBAAAAAAAABAEAAAAAAAABAAAAPQMBAAAAAAAAAwEAAAAAAAABAAAAIAIBAAAAAAAAAgEAAAAAAAABAAAAXQEBAAAAAAAAAQEAAAAAAAABAAAAWw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAGAQAAAAAAAAYBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					104,
+					1,
+					"insert",
+					{
+						"characters": "fliesep"
+					},
+					"CAAAAPABAAAAAAAA8QEAAAAAAAAAAAAA8QEAAAAAAADxAQAAAAAAAAMAAABvc3PxAQAAAAAAAPIBAAAAAAAAAAAAAPIBAAAAAAAA8wEAAAAAAAAAAAAA8wEAAAAAAAD0AQAAAAAAAAAAAAD0AQAAAAAAAPUBAAAAAAAAAAAAAPUBAAAAAAAA9gEAAAAAAAAAAAAA9gEAAAAAAAD3AQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADwAQAAAAAAAPMBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					105,
+					6,
+					"left_delete",
+					null,
+					"BgAAAPYBAAAAAAAA9gEAAAAAAAABAAAAcPUBAAAAAAAA9QEAAAAAAAABAAAAZfQBAAAAAAAA9AEAAAAAAAABAAAAc/MBAAAAAAAA8wEAAAAAAAABAAAAZfIBAAAAAAAA8gEAAAAAAAABAAAAafEBAAAAAAAA8QEAAAAAAAABAAAAbA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAD3AQAAAAAAAPcBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					106,
+					1,
+					"insert",
+					{
+						"characters": "ul"
+					},
+					"AgAAAPEBAAAAAAAA8gEAAAAAAAAAAAAA8gEAAAAAAADzAQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADxAQAAAAAAAPEBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					107,
+					2,
+					"left_delete",
+					null,
+					"AgAAAPIBAAAAAAAA8gEAAAAAAAABAAAAbPEBAAAAAAAA8QEAAAAAAAABAAAAdQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADzAQAAAAAAAPMBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					108,
+					1,
+					"insert",
+					{
+						"characters": "ilesep"
+					},
+					"BgAAAPEBAAAAAAAA8gEAAAAAAAAAAAAA8gEAAAAAAADzAQAAAAAAAAAAAADzAQAAAAAAAPQBAAAAAAAAAAAAAPQBAAAAAAAA9QEAAAAAAAAAAAAA9QEAAAAAAAD2AQAAAAAAAAAAAAD2AQAAAAAAAPcBAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADxAQAAAAAAAPEBAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 371,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"AgAAAM4AAAAAAAAAzwAAAAAAAAAAAAAAzwAAAAAAAADQAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADOAAAAAAAAAM4AAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": "Download"
+					},
+					"CAAAAM8AAAAAAAAA0AAAAAAAAAAAAAAA0AAAAAAAAADRAAAAAAAAAAAAAADRAAAAAAAAANIAAAAAAAAAAAAAANIAAAAAAAAA0wAAAAAAAAAAAAAA0wAAAAAAAADUAAAAAAAAAAAAAADUAAAAAAAAANUAAAAAAAAAAAAAANUAAAAAAAAA1gAAAAAAAAAAAAAA1gAAAAAAAADXAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADPAAAAAAAAAM8AAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": " and"
+					},
+					"BAAAANcAAAAAAAAA2AAAAAAAAAAAAAAA2AAAAAAAAADZAAAAAAAAAAAAAADZAAAAAAAAANoAAAAAAAAAAAAAANoAAAAAAAAA2wAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADXAAAAAAAAANcAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": " add"
+					},
+					"BAAAANsAAAAAAAAA3AAAAAAAAAAAAAAA3AAAAAAAAADdAAAAAAAAAAAAAADdAAAAAAAAAN4AAAAAAAAAAAAAAN4AAAAAAAAA3wAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADbAAAAAAAAANsAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					8,
+					1,
+					"left_delete",
+					null,
+					"AQAAAN4AAAAAAAAA3gAAAAAAAAABAAAAZA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADfAAAAAAAAAN8AAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					9,
+					1,
+					"insert",
+					{
+						"characters": "d"
+					},
+					"AQAAAN4AAAAAAAAA3wAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADeAAAAAAAAAN4AAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": " fht"
+					},
+					"BAAAAN8AAAAAAAAA4AAAAAAAAAAAAAAA4AAAAAAAAADhAAAAAAAAAAAAAADhAAAAAAAAAOIAAAAAAAAAAAAAAOIAAAAAAAAA4wAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADfAAAAAAAAAN8AAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					11,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAOMAAAAAAAAA5AAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADjAAAAAAAAAOMAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					12,
+					4,
+					"left_delete",
+					null,
+					"BAAAAOMAAAAAAAAA4wAAAAAAAAABAAAAIOIAAAAAAAAA4gAAAAAAAAABAAAAdOEAAAAAAAAA4QAAAAAAAAABAAAAaOAAAAAAAAAA4AAAAAAAAAABAAAAZg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADkAAAAAAAAAOQAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					13,
+					1,
+					"insert",
+					{
+						"characters": "the"
+					},
+					"AwAAAOAAAAAAAAAA4QAAAAAAAAAAAAAA4QAAAAAAAADiAAAAAAAAAAAAAADiAAAAAAAAAOMAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADgAAAAAAAAAOAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					14,
+					1,
+					"insert",
+					{
+						"characters": " following"
+					},
+					"CgAAAOMAAAAAAAAA5AAAAAAAAAAAAAAA5AAAAAAAAADlAAAAAAAAAAAAAADlAAAAAAAAAOYAAAAAAAAAAAAAAOYAAAAAAAAA5wAAAAAAAAAAAAAA5wAAAAAAAADoAAAAAAAAAAAAAADoAAAAAAAAAOkAAAAAAAAAAAAAAOkAAAAAAAAA6gAAAAAAAAAAAAAA6gAAAAAAAADrAAAAAAAAAAAAAADrAAAAAAAAAOwAAAAAAAAAAAAAAOwAAAAAAAAA7QAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADjAAAAAAAAAOMAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					15,
+					1,
+					"insert",
+					{
+						"characters": " to"
+					},
+					"AwAAAO0AAAAAAAAA7gAAAAAAAAAAAAAA7gAAAAAAAADvAAAAAAAAAAAAAADvAAAAAAAAAPAAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADtAAAAAAAAAO0AAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					16,
+					1,
+					"insert",
+					{
+						"characters": " your"
+					},
+					"BQAAAPAAAAAAAAAA8QAAAAAAAAAAAAAA8QAAAAAAAADyAAAAAAAAAAAAAADyAAAAAAAAAPMAAAAAAAAAAAAAAPMAAAAAAAAA9AAAAAAAAAAAAAAA9AAAAAAAAAD1AAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADwAAAAAAAAAPAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					17,
+					1,
+					"insert",
+					{
+						"characters": " MAYL"
+					},
+					"BQAAAPUAAAAAAAAA9gAAAAAAAAAAAAAA9gAAAAAAAAD3AAAAAAAAAAAAAAD3AAAAAAAAAPgAAAAAAAAAAAAAAPgAAAAAAAAA+QAAAAAAAAAAAAAA+QAAAAAAAAD6AAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAD1AAAAAAAAAPUAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					18,
+					2,
+					"left_delete",
+					null,
+					"AgAAAPkAAAAAAAAA+QAAAAAAAAABAAAATPgAAAAAAAAA+AAAAAAAAAABAAAAWQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAD6AAAAAAAAAPoAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					19,
+					1,
+					"insert",
+					{
+						"characters": "TLAB"
+					},
+					"BAAAAPgAAAAAAAAA+QAAAAAAAAAAAAAA+QAAAAAAAAD6AAAAAAAAAAAAAAD6AAAAAAAAAPsAAAAAAAAAAAAAAPsAAAAAAAAA/AAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAD4AAAAAAAAAPgAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					20,
+					1,
+					"insert",
+					{
+						"characters": " apth:"
+					},
+					"BgAAAPwAAAAAAAAA/QAAAAAAAAAAAAAA/QAAAAAAAAD+AAAAAAAAAAAAAAD+AAAAAAAAAP8AAAAAAAAAAAAAAP8AAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAABAQAAAAAAAAAAAAABAQAAAAAAAAIBAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAD8AAAAAAAAAPwAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					21,
+					5,
+					"left_delete",
+					null,
+					"BQAAAAEBAAAAAAAAAQEAAAAAAAABAAAAOgABAAAAAAAAAAEAAAAAAAABAAAAaP8AAAAAAAAA/wAAAAAAAAABAAAAdP4AAAAAAAAA/gAAAAAAAAABAAAAcP0AAAAAAAAA/QAAAAAAAAABAAAAYQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAACAQAAAAAAAAIBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					22,
+					1,
+					"insert",
+					{
+						"characters": "oa"
+					},
+					"AgAAAP0AAAAAAAAA/gAAAAAAAAAAAAAA/gAAAAAAAAD/AAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAD9AAAAAAAAAP0AAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					23,
+					2,
+					"left_delete",
+					null,
+					"AgAAAP4AAAAAAAAA/gAAAAAAAAABAAAAYf0AAAAAAAAA/QAAAAAAAAABAAAAbw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAD/AAAAAAAAAP8AAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					24,
+					1,
+					"insert",
+					{
+						"characters": "path:"
+					},
+					"BQAAAP0AAAAAAAAA/gAAAAAAAAAAAAAA/gAAAAAAAAD/AAAAAAAAAAAAAAD/AAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAQEAAAAAAAAAAAAAAQEAAAAAAAACAQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAD9AAAAAAAAAP0AAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					25,
+					1,
+					"insert",
+					{
+						"characters": "\n\n\n"
+					},
+					"AwAAAAIBAAAAAAAAAwEAAAAAAAAAAAAAAwEAAAAAAAAEAQAAAAAAAAAAAAAEAQAAAAAAAAUBAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAACAQAAAAAAAAIBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					26,
+					1,
+					"insert_snippet",
+					{
+						"contents": "`$0`"
+					},
+					"AQAAAAUBAAAAAAAABwEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAFAQAAAAAAAAUBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					28,
+					1,
+					"insert",
+					{
+						"characters": "`"
+					},
+					"AQAAAAcBAAAAAAAACAEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAHAQAAAAAAAAcBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					29,
+					1,
+					"insert",
+					{
+						"characters": "\n\n\n```"
+					},
+					"BgAAAAgBAAAAAAAACQEAAAAAAAAAAAAACQEAAAAAAAAKAQAAAAAAAAAAAAAKAQAAAAAAAAsBAAAAAAAAAAAAAAsBAAAAAAAADAEAAAAAAAAAAAAADAEAAAAAAAANAQAAAAAAAAAAAAANAQAAAAAAAA4BAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAIAQAAAAAAAAgBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					35,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAAgBAAAAAAAACQEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAIAQAAAAAAAAgBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					36,
+					1,
+					"paste",
+					null,
+					"AQAAAAkBAAAAAAAALwEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAJAQAAAAAAAAkBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					5,
+					1,
+					"paste",
+					null,
+					"AQAAADABAAAAAAAAVAEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMAEAAAAAAAAwAQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "src/markCropBox.m",
+			"settings":
+			{
+				"buffer_size": 1025,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 34,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					11,
+					2,
+					"left_delete",
+					null,
+					"AgAAABYAAAAAAAAAFgAAAAAAAAAFAAAAKi5KUEcVAAAAAAAAABUAAAAAAAAAAQAAAAo",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAbAAAAAAAAABYAAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "demo.m",
+			"settings":
+			{
+				"buffer_size": 26,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "addpath"
+					},
+					"BwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABwAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					5,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAAcAAAAAAAAACQAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAHAAAAAAAAAAcAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					6,
+					1,
+					"insert_snippet",
+					{
+						"contents": "'$0'"
+					},
+					"AQAAAAgAAAAAAAAACgAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": "src"
+					},
+					"AwAAAAkAAAAAAAAACgAAAAAAAAAAAAAACgAAAAAAAAALAAAAAAAAAAAAAAALAAAAAAAAAAwAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAJAAAAAAAAAAkAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					9,
+					1,
+					"insert",
+					{
+						"characters": "\n\nbatch"
+					},
+					"BwAAAA4AAAAAAAAADwAAAAAAAAAAAAAADwAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAABEAAAAAAAAAAAAAABEAAAAAAAAAEgAAAAAAAAAAAAAAEgAAAAAAAAATAAAAAAAAAAAAAAATAAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAFQAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAOAAAAAAAAAA4AAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": "Spot;"
+					},
+					"BQAAABUAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAGQAAAAAAAAAAAAAAGQAAAAAAAAAaAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAVAAAAAAAAABUAAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ren",
+				"Rename File"
+			],
+			[
+				"late",
+				"Build With: LaTeX"
+			],
+			[
+				"lat",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Rename File"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"packagere",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"isnt",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"View Package File"
+			],
+			[
+				"extract",
+				"Extract Sublime Package: Extract all packages"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"instakl",
+				"Package Control: Install Package"
+			],
+			[
+				"upd",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"package ",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Choose Gutter Theme"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pakcagere",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"exr",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"reso",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"packa res",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"Snippet: optio",
+				"Snippet: options"
+			],
+			[
+				"extr",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"pckage",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"extract ",
+				"Extract Sublime Package: Extract all packages"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"git push",
+				"git: push"
+			],
+			[
+				"git stage",
+				"git: quick stage current file and commit"
+			],
+			[
+				"git: diff",
+				"git: diff current file inline"
+			],
+			[
+				"git:diff c",
+				"git: diff current file inline"
+			],
+			[
+				"gitsavv",
+				"GitSavvy: help"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"git bl",
+				"git: blame current file"
+			],
+			[
+				"git diff",
+				"git: diff"
+			],
+			[
+				"git di",
+				"git: diff current file inline"
+			],
+			[
+				"git",
+				"git: status"
+			],
+			[
+				"gitsa",
+				"GitSavvy: help"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Remove Package"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"newfile",
+				"File: New View into File"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"syntax js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax matlb",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"Package Control: Install",
+				"Package Control: Install Package"
+			],
+			[
+				"disp",
+				"Snippet: disp"
+			],
+			[
+				"error",
+				"Snippet: error"
+			],
+			[
+				"Snippet: error",
+				"Snippet: error"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/srinivas/GoogleDrive/code/fly-spotter",
+		"/Users/srinivas/GoogleDrive/code/fly-spotter/images",
+		"/Users/srinivas/GoogleDrive/code/fly-spotter/src"
+	],
+	"file_history":
+	[
+		"/Users/srinivas/GoogleDrive/code/archive/fly-spotter/README.md",
+		"/Users/srinivas/GoogleDrive/code/archive/stg-embedding/+embedding/annotate.m",
+		"/Users/srinivas/GoogleDrive/code/archive/stg-embedding/paper-figures/fig_mod_transitions.m",
+		"/Users/srinivas/GoogleDrive/code/archive/stg-embedding/+analysis/computeTransitionMatrix.m",
+		"/Users/srinivas/GoogleDrive/code/archive/stg-embedding/+embedding/tsne_data.m",
+		"/Users/srinivas/GoogleDrive/code/archive/stg-embedding/paper-figures/fig_map_states.m",
+		"/Users/srinivas/GoogleDrive/code/archive/stg-embedding/paper-figures/fig_decentralized_metrics_time.m",
+		"/Users/srinivas/GoogleDrive/code/archive/stg-embedding/paper-figures/fig_decentralized_examples.m",
+		"/Users/srinivas/GoogleDrive/code/archive/stg-embedding/+embedding/@DataStore/spikes2percentiles.m",
+		"/Users/srinivas/.ssh/config",
+		"/Users/srinivas/GoogleDrive/code/archive/stg-embedding/paper-figures/fig_kmeans.m",
+		"/Users/srinivas/GoogleDrive/code/archive/stg-embedding/paper-figures/fig_direct_clustering.m",
+		"/Users/srinivas/GoogleDrive/code/archive/stg-embedding/paper-figures/fig_feature_deletion.m",
+		"/Users/srinivas/GoogleDrive/code/archive/stg-embedding/plotRaster.m",
+		"/Users/srinivas/GoogleDrive/code/archive/stg-embedding/+display/plotEmbedding.m",
+		"/Users/srinivas/GoogleDrive/code/archive/stg-embedding/paper-figures/fig_tsne_perplexity.m",
+		"/Users/srinivas/GoogleDrive/code/archive/stg-embedding/+embedding/readAnnotations.m",
+		"/Users/srinivas/GoogleDrive/code/archive/stg-embedding/+display/plotVariabilityBeforeTransition.m",
+		"/Users/srinivas/GoogleDrive/code/archive/stg-embedding/paper-figures/fig_env_perturbation_transitions.m",
+		"/Users/srinivas/GoogleDrive/code/archive/stg-embedding/paper-figures/init.m",
+		"/Users/srinivas/GoogleDrive/code/archive/stg-embedding/paper-figures/fig_synthetic_data.m",
+		"/Users/srinivas/GoogleDrive/code/archive/stg-embedding/+display/saveHere.m",
+		"/Users/srinivas/GoogleDrive/code/archive/stg-embedding/paper-figures/fig_map_states_umap.m",
+		"/Users/srinivas/GoogleDrive/code/astellas-ACC/README.md",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+sourcedata/getAllData.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/init.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+synthetic/bursting.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+synthetic/makeData.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+synthetic/spiking.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+synthetic/irregular.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_synthetic_data.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+validation/firstDimensionEqualSize.m",
+		"/Users/srinivas/.ssh/known_hosts",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_introduction.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+synthetic/SpikeParams.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_baseline_extracellular.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_decentralized_states_time.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+embedding/@DataStore/DataStore.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_mod_states2.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_embedding.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+embedding/embed.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+embedding/tsne_data.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+display/colorscheme.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+display/plotSankey.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+display/trimImage.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+embedding/@DataStore/spikes2percentiles.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/.gitignore",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+analysis/computeTransitionMatrix.m",
+		"/Users/srinivas/GoogleDrive/code/gain-flip/+analysis/cleanupAndConvert.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/README.md",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+display/saveHere.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+display/plotStates.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+display/plotTransitionMatrix.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_mod_map.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_single_prep_states.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_env_perturbations.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+display/tempLabel.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_env_perturbation_transitions.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_decentralized_occupancy.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_mod_transition_matrix.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+display/stateLegend.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+analysis/forEachPrep.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_mod_transitions.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_map_states.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_map_speed.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_baseline_occupancy.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_mod_ethogram.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+display/plotStateDistributionByPrep.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+analysis/estimateTransitionNullMatrix.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/test.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_mod_variability_vs_time.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+analysis/boostrapExperiments.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+analysis/measureRegularCVBeforeOrAfterTransitions.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+display/plotVariabilityBeforeTransition.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_env_variability_before_transition.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+embedding/@DataStore/ISI2BurstMetrics.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+embedding/@DataStore/filter.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_dec_variability_before_transitions.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+display/pairedMondrian.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+analysis/measureRegularCVBeforeTransitions.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_env_pertubation_intensity.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+analysis/computeTransitionMatrixCore.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+display/plotStatesVsPerturbationIntensity.m",
+		"/Users/srinivas/GoogleDrive/code/FIt-SNE/fast_tsne.m",
+		"/Users/srinivas/GoogleDrive/code/FIt-SNE/fast_tsne.",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_ph_time.m",
+		"/Users/srinivas/Desktop/test.cpp",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+display/stateMatrix.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+display/scatterWithCorrelation.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_seasonal_effects.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_decentralized_metrics_time.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_tsne_perplexity.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_tsne_init.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+display/plotEmbedding.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_triangulation.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_1_raw_data.m",
+		"/Users/srinivas/GoogleDrive/code/dotfiles/bashrc",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_mod_states.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+analysis/compareCategoricalDistributions.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+analysis/debugMetrics.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+embedding/quality.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+embedding/makeCategoricalArray.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+embedding/compare.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+embedding/annotate.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+display/shadedHistogram.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+display/plotNISIs.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+display/plotCDFWithError.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+analysis/normalizeMatrix.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+analysis/findRelativeAbundanceInMap.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+analysis/findCloseInXButFarInY.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/percentile_test.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+embedding/@DataStore/probState.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_cluster_dynamics.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_decentralization_grouped_by_before.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_baseline_stats.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_baseline_map_variability.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+embedding/@DataStore/getLabelsFromCache.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/annotations/rosenbaum-modulator-on.txt",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/annotations/schneider-modulator-on.txt",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+display/showRawData.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+embedding/@DataStore/burstiness.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/neuromodulators/fig_workflow.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_map_baseline_experimenter.m",
+		"/Users/srinivas/Dropbox/embedding-paper/elife/paper.tex",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+metadata/modifyModulatorOn.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/+display/boxPatch.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/paper-figures/fig_proctolin_counterexamples.m",
+		"/Users/srinivas/GoogleDrive/code/stg-embedding/CCAP.txt"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 188.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"oss",
+			"options"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": false,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/batchSpot.m",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1326,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								634,
+								634
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 101,
+								"count": 104,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/Matlab/Matlab.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 371,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								340,
+								340
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 1,
+								"count": 40,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/markCropBox.m",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								725,
+								725
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 52,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/Matlab/Matlab.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								34,
+								34
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 2,
+								"count": 1,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "demo.m",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 24,
+								"count": 1,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/Matlab/Matlab.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 79.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 180.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 736.0
+	},
+	"output.latextools":
+	{
+		"height": 216.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "fly-spotter.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rea",
+				"README.md"
+			],
+			[
+				"computeTransitionMatrix",
+				"+analysis/computeTransitionMatrix.m"
+			],
+			[
+				"fig_trans",
+				"paper-figures/fig_mod_transitions.m"
+			],
+			[
+				"perc",
+				"+embedding/@DataStore/spikes2percentiles.m"
+			],
+			[
+				"fig_map_s",
+				"paper-figures/fig_map_states.m"
+			],
+			[
+				"fig_map",
+				"paper-figures/fig_map_states.m"
+			],
+			[
+				"plotr",
+				"plotRaster.m"
+			],
+			[
+				"fig_dec_met",
+				"paper-figures/fig_decentralized_metrics_time.m"
+			],
+			[
+				"plotEmbedding",
+				"+display/plotEmbedding.m"
+			],
+			[
+				"fig_map_",
+				"paper-figures/fig_map_states.m"
+			],
+			[
+				"fig_per",
+				"paper-figures/fig_tsne_perplexity.m"
+			],
+			[
+				"fig_direc",
+				"paper-figures/fig_direct_clustering.m"
+			],
+			[
+				"readAnnotations",
+				"+embedding/readAnnotations.m"
+			],
+			[
+				"ann",
+				"+embedding/annotate.m"
+			],
+			[
+				"fig_cl",
+				"paper-figures/fig_direct_clustering.m"
+			],
+			[
+				"plotVariabilityBeforeTransition",
+				"+display/plotVariabilityBeforeTransition.m"
+			],
+			[
+				"fig_env",
+				"paper-figures/fig_env_perturbation_transitions.m"
+			],
+			[
+				"init",
+				"paper-figures/init.m"
+			],
+			[
+				"tsn",
+				"+embedding/tsne_data.m"
+			],
+			[
+				"save",
+				"+display/saveHere.m"
+			],
+			[
+				"fig_ma",
+				"paper-figures/fig_map_states.m"
+			],
+			[
+				"saveh",
+				"+display/saveHere.m"
+			],
+			[
+				"syn",
+				"paper-figures/fig_synthetic_data.m"
+			],
+			[
+				"ini",
+				"paper-figures/init.m"
+			],
+			[
+				"eq",
+				"+validation/firstDimensionEqualSize.m"
+			],
+			[
+				"fig_",
+				"paper-figures/fig_introduction.m"
+			],
+			[
+				"make",
+				"+synthetic/makeData.m"
+			],
+			[
+				"bur",
+				"+synthetic/bursting.m"
+			],
+			[
+				"fig_sy",
+				"paper-figures/fig_synthetic_data.m"
+			],
+			[
+				"spiking",
+				"+synthetic/spiking.m"
+			],
+			[
+				"maked",
+				"+synthetic/makeData.m"
+			],
+			[
+				"burs",
+				"+synthetic/bursting.m"
+			],
+			[
+				"irregu",
+				"+synthetic/irregular.m"
+			],
+			[
+				"getall",
+				"+sourcedata/getAllData.m"
+			],
+			[
+				"Data",
+				"+embedding/@DataStore/DataStore.m"
+			],
+			[
+				"spikes2",
+				"+embedding/@DataStore/spikes2percentiles.m"
+			],
+			[
+				"embed",
+				"+embedding/embed.m"
+			],
+			[
+				"fig_s",
+				"paper-figures/fig_synthetic_data.m"
+			],
+			[
+				"tsne",
+				"+embedding/tsne_data.m"
+			],
+			[
+				"col",
+				"+display/colorscheme.m"
+			],
+			[
+				"fig",
+				"paper-figures/fig_embedding.m"
+			],
+			[
+				"tri",
+				"+display/trimImage.m"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"trimImage",
+				"+display/trimImage.m"
+			],
+			[
+				"tran",
+				"+analysis/computeTransitionMatrix.m"
+			],
+			[
+				"fig_me",
+				"paper-figures/fig_embedding.m"
+			],
+			[
+				"fig_mod_st",
+				"paper-figures/fig_mod_states2.m"
+			],
+			[
+				"fig_base",
+				"paper-figures/fig_baseline_extracellular.m"
+			],
+			[
+				"plot",
+				"+display/plotStates.m"
+			],
+			[
+				"fig_dec",
+				"paper-figures/fig_decentralized_states_time.m"
+			],
+			[
+				"plotStates",
+				"+display/plotStates.m"
+			],
+			[
+				"fig_mod_m",
+				"paper-figures/fig_mod_map.m"
+			],
+			[
+				"temp",
+				"+display/tempLabel.m"
+			],
+			[
+				"statel",
+				"+display/stateLegend.m"
+			],
+			[
+				"fig_env_per",
+				"paper-figures/fig_env_perturbations.m"
+			],
+			[
+				"plotst",
+				"+display/plotStates.m"
+			],
+			[
+				"for",
+				"+analysis/forEachPrep.m"
+			],
+			[
+				"fig_mod_tr",
+				"paper-figures/fig_mod_transitions.m"
+			],
+			[
+				"com",
+				"+analysis/computeTransitionMatrix.m"
+			],
+			[
+				"fig_env_",
+				"paper-figures/fig_env_perturbation_transitions.m"
+			],
+			[
+				"stat",
+				"+display/stateLegend.m"
+			],
+			[
+				"fig_mod_t",
+				"paper-figures/fig_mod_transition_matrix.m"
+			],
+			[
+				"plotTransitionMatrix",
+				"+display/plotTransitionMatrix.m"
+			],
+			[
+				"fig_env_p",
+				"paper-figures/fig_env_perturbation_transitions.m"
+			],
+			[
+				"plottr",
+				"+display/plotTransitionMatrix.m"
+			],
+			[
+				"fig_mod_",
+				"paper-figures/fig_mod_states2.m"
+			],
+			[
+				"fig_mod_sta",
+				"paper-figures/fig_mod_states2.m"
+			],
+			[
+				"fig_mod_e",
+				"paper-figures/fig_mod_ethogram.m"
+			],
+			[
+				"fig_baseline_ex",
+				"paper-figures/fig_baseline_extracellular.m"
+			],
+			[
+				"plotStateDistributionByPrep",
+				"+display/plotStateDistributionByPrep.m"
+			],
+			[
+				"fig_baseline_occ",
+				"paper-figures/fig_baseline_occupancy.m"
+			],
+			[
+				"fig_map_see",
+				"paper-figures/fig_map_speed.m"
+			],
+			[
+				"dec_occ",
+				"paper-figures/fig_decentralized_occupancy.m"
+			],
+			[
+				"fig_env_t",
+				"paper-figures/fig_env_perturbation_transitions.m"
+			],
+			[
+				"comput",
+				"+analysis/computeTransitionMatrix.m"
+			],
+			[
+				"estimateTransitionNullMatrix",
+				"+analysis/estimateTransitionNullMatrix.m"
+			],
+			[
+				"comp",
+				"+analysis/computeTransitionMatrix.m"
+			],
+			[
+				"trans",
+				"+analysis/computeTransitionMatrix.m"
+			],
+			[
+				"compte",
+				"+analysis/computeTransitionMatrix.m"
+			],
+			[
+				"fig_mod_va",
+				"paper-figures/fig_mod_variability_vs_time.m"
+			],
+			[
+				"fig_mod",
+				"paper-figures/fig_mod_variability_vs_time.m"
+			],
+			[
+				"filter",
+				"+embedding/@DataStore/filter.m"
+			],
+			[
+				"fig_dec_",
+				"paper-figures/fig_decentralized_occupancy.m"
+			],
+			[
+				"measureRegularCVBeforeOrAfterTransitions",
+				"+analysis/measureRegularCVBeforeOrAfterTransitions.m"
+			],
+			[
+				"paired",
+				"+display/pairedMondrian.m"
+			],
+			[
+				"measureRegularCVBeforeTransitions",
+				"+analysis/measureRegularCVBeforeTransitions.m"
+			],
+			[
+				"stateLegend",
+				"+display/stateLegend.m"
+			],
+			[
+				"fig_env_variability_before_transition",
+				"paper-figures/fig_env_variability_before_transition.m"
+			],
+			[
+				"fig_em",
+				"paper-figures/fig_embedding.m"
+			],
+			[
+				"st",
+				"+display/stateLegend.m"
+			],
+			[
+				"fig_dec_tr",
+				"paper-figures/fig_dec_variability_before_transitions.m"
+			],
+			[
+				"pairedMondrian",
+				"+display/pairedMondrian.m"
+			],
+			[
+				"fig_dec_c",
+				"paper-figures/fig_decentralized_occupancy.m"
+			],
+			[
+				"plots",
+				"+display/plotStates.m"
+			],
+			[
+				"ISI2BurstMetrics",
+				"+embedding/@DataStore/ISI2BurstMetrics.m"
+			],
+			[
+				"state",
+				"+display/stateMatrix.m"
+			],
+			[
+				"sta",
+				"+display/stateMatrix.m"
+			],
+			[
+				"matrix",
+				"+display/stateMatrix.m"
+			],
+			[
+				"plotSt",
+				"+display/plotStates.m"
+			],
+			[
+				"tsne_data",
+				"+embedding/tsne_data.m"
+			],
+			[
+				"fig_tri",
+				"paper-figures/fig_triangulation.m"
+			],
+			[
+				"fig_int",
+				"paper-figures/fig_introduction.m"
+			],
+			[
+				"fig_ra",
+				"paper-figures/fig_1_raw_data.m"
+			],
+			[
+				"fig_dec ",
+				"paper-figures/fig_decentralized_metrics_time.m"
+			],
+			[
+				"scatterWithCorrelation",
+				"+display/scatterWithCorrelation.m"
+			],
+			[
+				"fig_se",
+				"paper-figures/fig_seasonal_effects.m"
+			],
+			[
+				"scatt",
+				"+display/scatterWithCorrelation.m"
+			],
+			[
+				"fig_sea",
+				"paper-figures/fig_seasonal_effects.m"
+			],
+			[
+				"colo",
+				"+display/colorscheme.m"
+			],
+			[
+				"getla",
+				"+embedding/@DataStore/getLabelsFromCache.m"
+			],
+			[
+				"getLabelsFromCache",
+				"+embedding/@DataStore/getLabelsFromCache.m"
+			],
+			[
+				"emb",
+				"+embedding/embed.m"
+			],
+			[
+				"color",
+				"+display/colorscheme.m"
+			],
+			[
+				"burst",
+				"+embedding/@DataStore/burstiness.m"
+			],
+			[
+				"rosen",
+				"annotations/rosenbaum-modulator-on.txt"
+			],
+			[
+				"fig_mod_states",
+				"paper-figures/fig_mod_states2.m"
+			],
+			[
+				"fig_pro",
+				"paper-figures/fig_proctolin_counterexamples.m"
+			],
+			[
+				"fig_mod_s",
+				"paper-figures/fig_mod_states2.m"
+			],
+			[
+				"spikes2percentiles",
+				"+embedding/@DataStore/spikes2percentiles.m"
+			],
+			[
+				"getAllData",
+				"+sourcedata/getAllData.m"
+			],
+			[
+				"get",
+				"+sourcedata/getAllData.m"
+			],
+			[
+				"datas",
+				"+embedding/@DataStore/DataStore.m"
+			],
+			[
+				"int",
+				"paper-figures/init.m"
+			],
+			[
+				"ros",
+				"annotations/rosenbaum-modulator-on.txt"
+			],
+			[
+				"combine",
+				"+embedding/@DataStore/combine.m"
+			],
+			[
+				"box",
+				"+display/boxPatch.m"
+			],
+			[
+				"mondrian",
+				"+display/mondrian.m"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/GoogleDrive/code/nt-sensors-analysis/nt-sensors.sublime-project"
+			],
+			[
+				"mt",
+				"~/GoogleDrive/code/srinivas.gs_mtools/mtools.sublime-project"
+			],
+			[
+				"nt",
+				"~/GoogleDrive/code/nt-sensors-analysis/nt-sensors.sublime-project"
+			],
+			[
+				"mto",
+				"~/GoogleDrive/code/srinivas.gs_mtools/mtools.sublime-project"
+			],
+			[
+				"isx",
+				"~/GoogleDrive/code/isx-matlab-extras/isx.sublime-project"
+			],
+			[
+				"nt-",
+				"~/GoogleDrive/code/nt-sensors-analysis/nt-sensors.sublime-project"
+			],
+			[
+				"gain",
+				"~/GoogleDrive/code/gain-flip/gain-flip.sublime-project"
+			],
+			[
+				"sns",
+				"~/GoogleDrive/code/xolotl/sns.sublime-project"
+			],
+			[
+				"ga",
+				"~/GoogleDrive/code/gain-flip/gain-flip.sublime-project"
+			],
+			[
+				"srini",
+				"~/GoogleDrive/code/srinivas.gs/srinivas.gs.sublime-project"
+			],
+			[
+				"sri",
+				"~/GoogleDrive/code/srinivas.gs/srinivas.gs.sublime-project"
+			],
+			[
+				"mtoo",
+				"~/GoogleDrive/code/srinivas.gs_mtools/mtools.sublime-workspace"
+			],
+			[
+				"srin",
+				"~/GoogleDrive/code/srinivas.gs/srinivas.gs.sublime-project"
+			],
+			[
+				"crab",
+				"~/GoogleDrive/code/crabsort/crabsort.sublime-project"
+			],
+			[
+				"gas",
+				"~/GoogleDrive/code/gastric/gastric.sublime-project"
+			],
+			[
+				"qbe",
+				"~/GoogleDrive/code/qbrec/qbrec.sublime-project"
+			],
+			[
+				"QBRE",
+				"~/GoogleDrive/code/qbrec/qbrec.sublime-project"
+			],
+			[
+				"qbre",
+				"~/GoogleDrive/code/qbrec/qbrec.sublime-project"
+			],
+			[
+				"stock",
+				"~/GoogleDrive/code/StockWatcher/StockWatcher.sublime-project"
+			],
+			[
+				"stoc",
+				"~/GoogleDrive/code/StockWatcher/StockWatcher.sublime-project"
+			],
+			[
+				"qbr",
+				"~/GoogleDrive/code/qbrec/qbrec.sublime-project"
+			],
+			[
+				"voc",
+				"~/GoogleDrive/code/python/pyvocab/vocab.sublime-project"
+			],
+			[
+				"pup",
+				"~/GoogleDrive/code/puppeteer/puppeteer.sublime-project"
+			],
+			[
+				"corr",
+				"~/GoogleDrive/code/correlations/correlations.sublime-project"
+			],
+			[
+				"xo",
+				"~/GoogleDrive/code/xolotl/sns.sublime-project"
+			],
+			[
+				"stco",
+				"~/GoogleDrive/code/StockWatcher/StockWatcher.sublime-project"
+			],
+			[
+				"stg",
+				"~/GoogleDrive/code/stg-embedding/stg-embedding.sublime-project"
+			],
+			[
+				"ssri",
+				"~/GoogleDrive/code/srinivas.gs/srinivas.gs.sublime-project"
+			],
+			[
+				"gast",
+				"~/GoogleDrive/code/gastric/gastric.sublime-project"
+			],
+			[
+				"recp",
+				"~/recipes/recipes.sublime-project"
+			],
+			[
+				"cra",
+				"~/GoogleDrive/code/crabsort/crabsort.sublime-project"
+			],
+			[
+				"crabs",
+				"~/GoogleDrive/code/crabsort/crabsort.sublime-project"
+			],
+			[
+				"rec",
+				"~/recipes/recipes.sublime-project"
+			],
+			[
+				"cr",
+				"~/GoogleDrive/code/crabsort/crabsort.sublime-project"
+			],
+			[
+				"uma",
+				"~/GoogleDrive/code/umap-wrapper/umap.sublime-project"
+			],
+			[
+				"um",
+				"~/GoogleDrive/code/umap-wrapper/umap.sublime-project"
+			],
+			[
+				"size",
+				"~/GoogleDrive/code/size-compensation/size-compensation-paper.sublime-project"
+			],
+			[
+				"umap",
+				"~/GoogleDrive/code/umap-wrapper/umap.sublime-project"
+			],
+			[
+				"mtt",
+				"~/GoogleDrive/code/srinivas.gs_mtools/mtools.sublime-project"
+			],
+			[
+				"cpp",
+				"~/GoogleDrive/code/cpplab/cpplab.sublime-project"
+			],
+			[
+				"cons",
+				"~/GoogleDrive/code/condalab/condalab.sublime-project"
+			],
+			[
+				"sn s",
+				"~/GoogleDrive/code/xolotl/sns.sublime-project"
+			],
+			[
+				"stg-",
+				"~/GoogleDrive/code/stg-embedding/stg-embedding.sublime-project"
+			],
+			[
+				"rep",
+				"~/GoogleDrive/code/reprinz/reprinz.sublime-project"
+			],
+			[
+				"sn",
+				"~/GoogleDrive/code/xolotl/sns.sublime-project"
+			],
+			[
+				"siz",
+				"~/GoogleDrive/code/size-compensation/size-compensation-paper.sublime-project"
+			],
+			[
+				"crb",
+				"~/GoogleDrive/code/crabsort/crabsort.sublime-project"
+			],
+			[
+				"xto",
+				"~/GoogleDrive/code/xolotl/sns.sublime-project"
+			],
+			[
+				"c",
+				"~/GoogleDrive/code/crabsort/crabsort.sublime-project"
+			],
+			[
+				"conda",
+				"~/GoogleDrive/code/condalab/condalab.sublime-project"
+			],
+			[
+				"top",
+				"~/GoogleDrive/code/bursting-topology/topology.sublime-project"
+			],
+			[
+				"tsn",
+				"~/GoogleDrive/code/tsne-wrappers/TSNE.sublime-project"
+			],
+			[
+				"ts",
+				"~/GoogleDrive/code/tsne-wrappers/TSNE.sublime-project"
+			],
+			[
+				"tsne",
+				"~/GoogleDrive/code/tsne-wrappers/TSNE.sublime-project"
+			],
+			[
+				"aut",
+				"~/GoogleDrive/code/auto-bots/auto-bots.sublime-project"
+			],
+			[
+				"meth",
+				"~/GoogleDrive/code/methods-paper/methods-paper.sublime-project"
+			],
+			[
+				"smto",
+				"~/GoogleDrive/code/srinivas.gs_mtools/mtools.sublime-project"
+			],
+			[
+				"tns",
+				"~/GoogleDrive/code/tsne-wrappers/TSNE.sublime-project"
+			],
+			[
+				"m",
+				"~/GoogleDrive/code/srinivas.gs_mtools/mtools.sublime-project"
+			],
+			[
+				"hi",
+				"~/GoogleDrive/code/high-k/high-k.sublime-project"
+			],
+			[
+				"hig",
+				"~/GoogleDrive/code/high-k/high-k.sublime-project"
+			],
+			[
+				"xfit",
+				"~/GoogleDrive/code/xfit/xfit.sublime-project"
+			],
+			[
+				"tg",
+				"~/GoogleDrive/code/stg-embedding/stg-embedding.sublime-project"
+			],
+			[
+				"auto",
+				"~/GoogleDrive/code/auto-bots/auto-bots.sublime-project"
+			],
+			[
+				"neur",
+				"~/GoogleDrive/code/neuron-db/neuron-db.sublime-project"
+			],
+			[
+				"pupp",
+				"~/GoogleDrive/code/puppeteer/puppeteer.sublime-project"
+			],
+			[
+				"pan",
+				"~/GoogleDrive/code/panopticon/panopticon.sublime-project"
+			],
+			[
+				"kap",
+				"~/GoogleDrive/code/kapalin/kapalin.sublime-project"
+			],
+			[
+				"pamn",
+				"~/GoogleDrive/code/panopticon/panopticon.sublime-project"
+			],
+			[
+				"pa",
+				"~/GoogleDrive/code/panopticon/panopticon.sublime-project"
+			],
+			[
+				"data-man",
+				"~/GoogleDrive/code/data-manager/data-manager.sublime-project"
+			],
+			[
+				"data",
+				"~/Google Drive/code/data-liberator/data-manager.sublime-workspace"
+			],
+			[
+				"sac",
+				"~/Google Drive/code/sacculus-imaging/sacculus-imaging.sublime-project"
+			],
+			[
+				"xol",
+				"~/Google Drive/code/xolotl/sns.sublime-project"
+			],
+			[
+				"MTO",
+				"~/Google Drive/code/srinivas.gs_mtools/mtools.sublime-project"
+			],
+			[
+				"ps",
+				"~/Google Drive/code/psychopomp/psychopomp.sublime-project"
+			],
+			[
+				"psy",
+				"~/Google Drive/code/psychopomp/psychopomp.sublime-project"
+			],
+			[
+				"s",
+				"~/Google Drive/code/xolotl/sns.sublime-project"
+			],
+			[
+				"mr",
+				"/Users/sigbhu/Google Drive/code/srinivas.gs_mtools/mtools.sublime-workspace"
+			],
+			[
+				"xolo",
+				"~/Google Drive/code/xolotl/sns.sublime-project"
+			],
+			[
+				"si",
+				"~/Google Drive/code/size-control/size-control.sublime-project"
+			],
+			[
+				"pr",
+				"~/Google Drive/code/procrustes/procrustes.sublime-project"
+			],
+			[
+				"pro",
+				"~/Google Drive/code/procrustes/procrustes.sublime-project"
+			],
+			[
+				"mark",
+				"~/code/sublime-text/mark-roi.sublime-project"
+			],
+			[
+				"neuron",
+				"~/code/sublime-text/neuron-structure.sublime-project"
+			],
+			[
+				"met",
+				"~/code/sublime-text/methods-paper.sublime-project"
+			],
+			[
+				"da",
+				"~/code/sublime-text/DA.sublime-project"
+			],
+			[
+				"fly",
+				"~/code/sublime-text/flywalk.sublime-project"
+			],
+			[
+				"bac",
+				"~/code/sublime-text/bacteria.sublime-project"
+			],
+			[
+				"markroi",
+				"~/code/sublime-text/mark-roi.sublime-project"
+			],
+			[
+				"fit",
+				"~/code/sublime-text/fitModel2Data.sublime-project"
+			],
+			[
+				"man",
+				"~/code/sublime-text/manipulate.sublime-project"
+			],
+			[
+				"sp",
+				"~/code/sublime-text/spikesort.sublime-project"
+			],
+			[
+				"spik",
+				"~/code/sublime-text/spikesort.sublime-project"
+			],
+			[
+				"spi",
+				"~/code/sublime-text/spikesort.sublime-project"
+			],
+			[
+				"spike",
+				"~/code/sublime-text/spikesort.sublime-project"
+			],
+			[
+				"nl",
+				"~/code/sublime-text/nl-models.sublime-project"
+			],
+			[
+				"kon",
+				"~/code/sublime-text/Kontroller.sublime-project"
+			],
+			[
+				"sr",
+				"~/code/sublime-text/srinivas.gs.sublime-project"
+			],
+			[
+				"meh",
+				"~/code/sublime-text/methods-paper.sublime-project"
+			],
+			[
+				"kom",
+				"~/code/sublime-text/kontroller2.sublime-project"
+			],
+			[
+				"ko",
+				"~/code/sublime-text/Kontroller.sublime-project"
+			],
+			[
+				"mov",
+				"~/code/sublime-text/movie-analyser.sublime-project"
+			],
+			[
+				"movie",
+				"~/code/sublime-text/movie-analyser.sublime-project"
+			],
+			[
+				"movi",
+				"~/code/sublime-text/movie-analyser.sublime-project"
+			],
+			[
+				"fl",
+				"~/code/sublime-text/flywalk.sublime-project"
+			],
+			[
+				"david",
+				"~/code/sublime-text/davide.sublime-project"
+			],
+			[
+				"spikeso",
+				"~/code/sublime-text/spikesort.sublime-project"
+			],
+			[
+				"mtools",
+				"~/code/sublime-text/mtools.sublime-project"
+			],
+			[
+				"che",
+				"~/code/sublime-text/chemotaxis.sublime-project"
+			],
+			[
+				"chem",
+				"~/code/sublime-text/chemotaxis.sublime-project"
+			],
+			[
+				"tfa",
+				"~/code/sublime-text/tfa.sublime-project"
+			],
+			[
+				"inc",
+				"~/code/income-dist/inc-dist.sublime-project"
+			],
+			[
+				"Ko",
+				"~/code/Kontroller/Kontroller.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

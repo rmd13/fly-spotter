@@ -18,24 +18,24 @@ classdef verifyFlyPositions < movieAnalyser
 		function a = createGUI(a)
 			createGUI@movieAnalyser(a);
 
-			a.handles.fig.WindowButtonDownFcn = @a.mouseCallback;
+			a.ui_handles.fig.WindowButtonDownFcn = @a.mouseCallback;
 
-			delete(a.handles.scrubber);
-			delete(a.handles.pause_button);
+			delete(a.ui_handles.scrubber);
+			delete(a.ui_handles.pause_button);
 
-			a.handles.add_fly_button = uicontrol('Style','togglebutton','Units','normalized','Position',[0.2 .01 .1 .05],'Callback',@a.addFlyCallback,'String','+Fly');
+			a.ui_handles.add_fly_button = uicontrol('Style','togglebutton','Units','normalized','Position',[0.2 .01 .1 .05],'Callback',@a.addFlyCallback,'String','+Fly');
 
-			a.handles.remove_fly_button = uicontrol('Style','togglebutton','Units','normalized','Position',[0.35 .01 .1 .05],'Callback',@a.removeFlyCallback,'String','-Fly');
+			a.ui_handles.remove_fly_button = uicontrol('Style','togglebutton','Units','normalized','Position',[0.35 .01 .1 .05],'Callback',@a.removeFlyCallback,'String','-Fly');
 
-			a.handles.export_data_button = uicontrol('Style','pushbutton','Units','normalized','Position',[0.55 .01 .1 .05],'Callback',@a.exportData,'String','Save Data');
+			a.ui_handles.export_data_button = uicontrol('Style','pushbutton','Units','normalized','Position',[0.55 .01 .1 .05],'Callback',@a.exportData,'String','Save Data');
 
-			a.handles.ax.XTick = [];
-			a.handles.ax.YTick = [];
+			a.plot_handles.ax.XTick = [];
+			a.plot_handles.ax.YTick = [];
 
-			a.handles.prev_button.Position = [0.01 0.05 0.05 0.9];
-			a.handles.next_button.Position = [.94 .05 .05 .9];
-			a.handles.next_button.FontSize = 40;
-			a.handles.prev_button.FontSize = 40;
+			a.ui_handles.prev_button.Position = [0.01 0.05 0.05 0.9];
+			a.ui_handles.next_button.Position = [.94 .05 .05 .9];
+			a.ui_handles.next_button.FontSize = 40;
+			a.ui_handles.prev_button.FontSize = 40;
 
 
 
@@ -47,10 +47,10 @@ classdef verifyFlyPositions < movieAnalyser
 
 
 		function a = operateOnFrame(a)
-			cla(a.handles.ax)
+			cla(a.plot_handles.ax)
 
 			I = a.full_images(:,:,:,a.current_frame);
-			a.handles.im = imagesc(I);
+			a.plot_handles.im = imagesc(I);
 			hold on
 
 			r = a.all_objects(a.current_frame).r;
@@ -58,14 +58,14 @@ classdef verifyFlyPositions < movieAnalyser
 				plot(r(j).Centroid(1),r(j).Centroid(2),'ro','MarkerSize',10)
 			end
 
-			a.handles.fig.Name = a.original_file_names{a.current_frame};
+			a.ui_handles.fig.Name = a.original_file_names{a.current_frame};
 
 		end
 
 
 		function v = mouseCallback(v,~,~)
 			% simply add a point
-			p = v.handles.ax.CurrentPoint;
+			p = v.plot_handles.ax.CurrentPoint;
 			p = p(1,1:2);
 
 			if min(p) < 1
@@ -78,13 +78,13 @@ classdef verifyFlyPositions < movieAnalyser
 				return
 			end
 
-			if v.handles.add_fly_button.Value == 1
+			if v.ui_handles.add_fly_button.Value == 1
 				r = v.all_objects(v.current_frame).r;
 				r(end+1).Centroid = p;
 				v.all_objects(v.current_frame).r = r;
 				v.operateOnFrame;
 
-			elseif v.handles.remove_fly_button.Value == 1
+			elseif v.ui_handles.remove_fly_button.Value == 1
 				r = v.all_objects(v.current_frame).r;
 				% find the closest object
 				centroid_locs = reshape([r.Centroid],2,length(r));
@@ -99,34 +99,34 @@ classdef verifyFlyPositions < movieAnalyser
 		end
 
 		function v = addFlyCallback(v,~,~)
-			if v.handles.add_fly_button.Value == 1
-				v.handles.add_fly_button.FontWeight = 'bold';
-				v.handles.add_fly_button.FontSize = 20;
-				v.handles.remove_fly_button.Value = 0;
-				v.handles.remove_fly_button.FontWeight = 'normal';
-				v.handles.remove_fly_button.FontSize = 10;
+			if v.ui_handles.add_fly_button.Value == 1
+				v.ui_handles.add_fly_button.FontWeight = 'bold';
+				v.ui_handles.add_fly_button.FontSize = 20;
+				v.ui_handles.remove_fly_button.Value = 0;
+				v.ui_handles.remove_fly_button.FontWeight = 'normal';
+				v.ui_handles.remove_fly_button.FontSize = 10;
 			else
-				v.handles.add_fly_button.FontWeight = 'normal';
-				v.handles.add_fly_button.FontSize = 10;
+				v.ui_handles.add_fly_button.FontWeight = 'normal';
+				v.ui_handles.add_fly_button.FontSize = 10;
 			end
 
 		end
 
 		function v = removeFlyCallback(v,~,~)
-			if v.handles.remove_fly_button.Value == 1
-				v.handles.remove_fly_button.FontWeight = 'bold';
-				v.handles.remove_fly_button.FontSize = 20;
-				v.handles.add_fly_button.Value = 0;
-				v.handles.add_fly_button.FontWeight = 'normal';
-				v.handles.add_fly_button.FontSize = 10;
+			if v.ui_handles.remove_fly_button.Value == 1
+				v.ui_handles.remove_fly_button.FontWeight = 'bold';
+				v.ui_handles.remove_fly_button.FontSize = 20;
+				v.ui_handles.add_fly_button.Value = 0;
+				v.ui_handles.add_fly_button.FontWeight = 'normal';
+				v.ui_handles.add_fly_button.FontSize = 10;
 			else
-				v.handles.remove_fly_button.FontWeight = 'normal';
-				v.handles.remove_fly_button.FontSize = 10;
+				v.ui_handles.remove_fly_button.FontWeight = 'normal';
+				v.ui_handles.remove_fly_button.FontSize = 10;
 			end
 		end
 
 		function v = exportData(v,~,~)
-			v.handles.fig.Name = 'Saving...';
+			v.ui_handles.fig.Name = 'Saving...';
 			drawnow
 			% determine the maximum number of flies in the entire dataset
 			nflies_max = 0;
@@ -142,7 +142,7 @@ classdef verifyFlyPositions < movieAnalyser
 					temp{j+1,i} = v.x_scale*v.all_objects(i).r(j).Centroid(1);
 				end
 			end
-			cell2csv([v.parent_dir oss 'results_X.csv'],temp);
+			cell2csv(fullfile(v.parent_dir, 'results_X.csv'),temp);
 
 			% save Y positions
 			temp = cell(nflies_max+1,length(v.all_objects));
@@ -152,7 +152,7 @@ classdef verifyFlyPositions < movieAnalyser
 					temp{j+1,i} = v.y_scale*v.all_objects(i).r(j).Centroid(2);
 				end
 			end
-			cell2csv([v.parent_dir oss 'results_Y.csv'],temp);
+			cell2csv(fullfile(v.parent_dir, 'results_Y.csv'),temp);
 
 			% save Areas
 			temp = cell(nflies_max+1,length(v.all_objects));
@@ -162,9 +162,9 @@ classdef verifyFlyPositions < movieAnalyser
 					temp{j+1,i} = v.all_objects(i).r(j).Area;
 				end
 			end
-			cell2csv([v.parent_dir oss 'results_Areas.csv'],temp);
+			cell2csv(fullfile(v.parent_dir, 'results_Areas.csv'),temp);
 
-			v.handles.fig.Name = 'Data exported!';
+			v.ui_handles.fig.Name = 'Data exported!';
 			drawnow
 		end
 
