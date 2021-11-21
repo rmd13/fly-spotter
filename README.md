@@ -10,8 +10,7 @@ Download and add the following to your MATLAB path:
 
 ```
 https://github.com/sg-s/movie-analyser
-https://github.com/sg-s/fly-spotter/
-
+https://github.com/sg-s/fly-spotter
 ```
 
 
@@ -39,3 +38,5 @@ A new GUI will pop up allowing you to manually inspect the locations of every fl
 
 
 ## License 
+
+GPL v3
